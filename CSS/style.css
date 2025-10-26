@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
   box-sizing: border-box;
   font-family: "Urbanist", sans-serif;
 }
@@ -1053,3 +1053,10 @@ padding-top: 100px;
 
 
 /* ======Footer End===== */
+
+@media only screen and (max-width: 1920px) {
+  .container {
+    width: 100%;
+    padding: 0 auto;
+  }
+}
