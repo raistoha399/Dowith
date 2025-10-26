@@ -1,0 +1,729 @@
+@media only screen and (min-width:768px) and (max-width: 1023px) {
+    .container {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  .logo img {
+    width: 120px;
+    margin-left: 30px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row,
+  .counter_wrapper,
+  .feature_wrapper,
+  .price_parent,
+  .review_wrapper,
+  .video_wrapper {
+    gap: 32px;
+  }
+
+  /* Navbar */
+  .parent_Nav {
+    padding: 20px 0;
+  }
+
+  .menu {
+    gap: 40px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .sign_btn a {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  /* Banner */
+  .parent_banner {
+    padding-top: 160px;
+    padding-bottom: 220px;
+    gap: 60px;
+  }
+
+  .banner_desc h1 {
+    font-size: 48px;
+    line-height: 1.15;
+  }
+
+  .banner_desc p {
+
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .banner_btn a {
+    padding: 12px 26px;
+    font-size: 16px;
+  }
+
+  .banner_img img {
+    width: 100%;
+    right: 30px;
+  }
+  .shape1{
+    top: -20px;
+  }
+  .shape2{
+    bottom: -30px;
+    right: -10px;
+    width: 100px;
+    height: 100px;
+  }
+  .banner_btn a:nth-child(2){
+    font-size:11.5px ;
+    font-weight: 800;
+  }
+ 
+  /* Counter Section */
+  .counter_wrapper {
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .counter_item .count_number {
+    font-size: 20px;
+  }
+  .counter_item .count_title{
+    font-size: 12px;
+  }
+  /* Feature Section */
+  .feature_heading{
+    gap: 20px;
+  }
+  .feature_heading h2 {
+    font-size: 30px;
+    margin-top: -20px;
+  }
+
+  .feature_heading p {
+    font-size: 10px;
+  }
+
+  .feature_wrapper .transaction,
+  .feature_wrapper .achieves {
+    width: 368px;
+  }
+  .transaction h4{
+    font-size: 14px;
+  }
+  .transaction p{
+    font-size: 12px;
+  }
+
+  .feature_img {
+    right: 0;
+  }
+
+  .feature_img img {
+    width: 37%;
+    margin-left: 450px;
+   
+  }
+
+  /* Video Section */
+  .video_wrapper {
+    gap: 60px;
+    align-items: center;
+  
+  }
+.play_video{
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  .video_details .video_title {
+    font-size: 32px;
+  }
+
+  .video_details p {
+    font-size: 16px;
+  }
+.video_details .details_list li{
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .video_thumbnail img {
+    width: 100%;
+  }
+
+  /* Pricing Section */
+  .package_main{
+    width: 400px;
+    height:400px;
+    margin-top: -20px;
+  }
+  .price_parent {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .price_card {
+    width: 30%;
+    margin-left: 20px;
+  }
+
+  .price_card h3 {
+    font-size: 20px;
+  }
+  .price_card .price {
+    font-size: 24px;
+  }
+.package_details .details_text p{
+    font-size: 12px;
+}
+  /* Review Section */
+  .review_main .review_heading h3{
+    font-size: 30px;
+  }
+    .review_main .review_heading p{
+    font-size: 14px;
+    }
+    .review_desc img{
+      width: 30px;
+      height: 30px;
+    }
+    .review_desc p{
+      font-size: 14px;
+    }
+  .review_wrapper {
+    gap: 40px;
+  }
+
+  .review_card {
+    width: 46%;
+  }
+
+  .review_card p {
+    font-size: 15px;
+  }
+  .review_img_wrapper{
+  display: flex;
+  gap: 12px;
+}
+.review_img_item{
+  width: 40px;
+  height: 40px;
+}
+.review_arrow{
+  width: 40px;
+  height: 40px;
+}
+.contact_form{
+  width: 300px;
+  margin-right: 8px;
+  padding: 20px 20px;
+}
+.contact_form form .form_group.message textarea{
+ width: 270px;
+}
+  /* Footer */
+  .footer_logo p{
+    font-size: 12px;
+  }
+.footer_list_heading{
+  font-size: 14px;
+  margin-left: 40px;
+}
+  
+.footer_ul li a{
+  font-size: 12px;
+}
+}
+@media only screen and (min-width:1024px) and (max-width: 1439px){
+    .container {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  .logo img {
+    width: 180px;
+    margin-left: 40px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row,
+  .counter_wrapper,
+  .feature_wrapper,
+  .price_parent,
+  .review_wrapper,
+  .video_wrapper {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  /* Navbar */
+  .parent_Nav {
+    padding: 20px 0;
+  }
+
+  .menu {
+    gap: 40px;
+  }
+
+  .menu a {
+    font-size: 16px;
+  }
+
+  .sign_btn a {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  /* Banner */
+  .parent_banner {
+    padding-top: 160px;
+    padding-bottom: 220px;
+    gap: 60px;
+  }
+
+  .banner_desc h1 {
+    font-size: 60px;
+    line-height: 1.15;
+    margin-left: 30px;
+  }
+
+  .banner_desc p {
+    margin-left: 30px;
+    font-size: 17px;
+    width: 90%;
+  }
+
+  .banner_btn a {
+    padding: 12px 26px;
+    font-size: 16px;
+  }
+
+  .banner_img img {
+    width: 85%;
+    margin-top: 0;
+  }
+  .shape1{
+    top: 0px;
+  }
+  .shape2{
+    bottom: -40px;
+    right: -20px;
+    width: 120px;
+    height: 120px;
+  }
+  /* Counter Section */
+  .counter_wrapper {
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .counter_item .count_number {
+    font-size: 38px;
+  }
+
+  /* Feature Section */
+  .feature_heading{
+    text-align: left;
+    margin-left: 30px;
+  }
+  .feature_heading h2 {
+    font-size: 42px;
+    margin-left: 30px;
+  }
+
+  .feature_heading p {
+    font-size: 14px;
+    
+  }
+
+  .feature_wrapper .transaction,
+  .feature_wrapper .achieves {
+    width: 400px;
+    top: 80px;
+    gap: 20px;
+  }
+  .parent_achieves{
+    gap: 20px;
+   
+  }
+
+  .feature_img {
+    margin-left: 100px;
+  }
+
+  .feature_img img {
+    width: 50%;
+    margin-left: 450px;
+  }
+
+  /* Video Section */
+  .video_wrapper {
+    display:flex;
+  }
+  .play_video{
+    margin-left: 100px;
+    width: 350px;
+    height: 350px;
+  }
+  .video_details .video_title {
+    font-size: 32px;
+  }
+  .details_list li{
+    list-style-position: 10px;
+  }
+
+  /* Pricing Section */
+  .price_parent {
+    justify-content: center;
+    gap: 40px;
+  }
+  .package_main{
+    width: 350px;
+    height:350px;
+    margin-top: -30px;
+  }
+  .price_card {
+    width: 45%;
+  }
+
+  .price_card h3 {
+    font-size: 24px;
+  }
+
+  .price_card .price {
+    font-size: 32px;
+  }
+
+  /* Review Section */
+  .review_wrapper {
+    gap: 40px;
+  }
+
+  .review_card {
+    width: 46%;
+  }
+
+  .review_card p {
+    font-size: 15px;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 60px 0;
+  }
+
+  #footer .footer_wrapper {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  footer .footer_logo img {
+    width: 90px;
+  }
+
+  footer p {
+    font-size: 15px;
+    
+  }
+  .footer_list_main li{
+    list-style-position: 10px;
+  }
+}
+@media only screen and (min-width:1440px) and (max-width: 1920px) {
+  .container {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto ;
+  }
+  .logo img {
+    width: 180px;
+    margin-left: 40px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row,
+  .counter_wrapper,
+  .feature_wrapper,
+  .price_parent,
+  .review_wrapper,
+  .video_wrapper {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  /* Navbar */
+  .parent_Nav {
+    padding: 20px 0;
+  }
+
+  .menu {
+    gap: 40px;
+  }
+
+  .menu a {
+    font-size: 16px;
+  }
+
+  .sign_btn a {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  /* Banner */
+  .parent_banner {
+    padding-top: 160px;
+    padding-bottom: 220px;
+    gap: 60px;
+  }
+
+  .banner_desc h1 {
+    font-size: 70px;
+    line-height: 1.15;
+  }
+
+  .banner_desc p {
+
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .banner_btn a {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+
+  .banner_img img {
+    width: 100%;
+  }
+
+  /* Counter Section */
+  .counter_wrapper {
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .counter_item .count_number {
+    font-size: 50px;
+  }
+
+  /* Feature Section */
+  .feature_heading h2 {
+    font-size: 50px;
+  }
+
+  .feature_heading p {
+    font-size: 20px;
+  }
+
+  .feature_wrapper .transaction,
+  .feature_wrapper .achieves {
+    width: 552px;
+    margin-left: 120px;
+  }
+  .parent_achieves{
+    margin-left: 0px;
+    
+  }
+  
+
+  .feature_img {
+    right: 20px;
+  }
+
+  .feature_img img {
+    width: 100%;
+  }
+
+  /* Video Section */
+  .video_wrapper {
+    gap: 60px;
+    align-items: center;
+  }
+
+  .video_details .video_title {
+    font-size: 44px;
+  }
+
+  .video_details p {
+    font-size: 16px;
+  }
+
+  .video_thumbnail img {
+    width: 100%;
+  }
+
+  /* Pricing Section */
+  .price_parent {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .price_card {
+    width: 45%;
+  }
+
+  .price_card h3 {
+    font-size: 24px;
+  }
+
+  .price_card .price {
+    font-size: 32px;
+  }
+
+  /* Review Section */
+  .review_wrapper {
+    gap: 40px;
+  }
+
+  .review_card {
+    width: 46%;
+  }
+
+  .review_card p {
+    font-size: 15px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 60px 0;
+  }
+
+  footer .footer_wrapper {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  footer .footer_logo img {
+    width: 90px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width:1921px) {
+  .container {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto ;
+  }
+  .logo img {
+    width: 180px;
+    margin-left: 40px;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row,
+  .counter_wrapper,
+  .feature_wrapper,
+  .price_parent,
+  .review_wrapper,
+  .video_wrapper {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  /* Navbar */
+  .parent_Nav {
+    padding: 20px 0;
+  }
+
+  .menu {
+    gap: 40px;
+  }
+
+  .menu a {
+    font-size: 16px;
+  }
+
+  .sign_btn a {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  /* Banner */
+  .parent_banner {
+    padding-top: 160px;
+    padding-bottom: 220px;
+    gap: 60px;
+  }
+
+  .banner_desc h1 {
+    font-size: 80px;
+    line-height: 1.15;
+  }
+
+  .banner_desc p {
+
+    font-size: 22px;
+    width: 90%;
+  }
+
+  .banner_btn a {
+    padding: 12px 26px;
+    font-size: 22px;
+  }
+
+  .banner_img img {
+    width: 100%;
+  }
+
+  /* Counter Section */
+  .counter_wrapper {
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .counter_item .count_number {
+    font-size: 60px;
+  }
+
+  /* Feature Section */
+  .feature_heading h2 {
+    font-size: 60px;
+  }
+
+  .feature_heading p {
+    font-size: 22px;
+  }
+
+  .feature_wrapper .transaction,
+  .feature_wrapper .achieves {
+    width: 600px;
+    margin-left: 150px;
+  }
+  
+
+  .feature_img {
+    right: 20px;
+  }
+
+  .feature_img img {
+    width: 100%;
+  }
+
+  /* Video Section */
+  .video_wrapper {
+    gap: 60px;
+    align-items: center;
+  }
+
+  .video_details .video_title {
+    font-size: 50px;
+  }
+}

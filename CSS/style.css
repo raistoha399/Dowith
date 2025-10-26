@@ -7,6 +7,7 @@
 
 a {
   text-decoration: none;
+  
 }
 
 ul, ol {
@@ -89,26 +90,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* ====== Banner Start ====== */
 #banner {
-  
   position: relative;
 }
 
 .shape1 img {
   position: absolute;
-  top:0;
+  top:-100px;
   right: 0px;
   z-index: 0;
 }
 .shape2 img{
   position: absolute;
   right: 0; 
-  top: 100px;
+  top: -60px;
 }
 .shape3 img{
 
   position: absolute;
   left:0;
-  top: 140px;
+  top: -140px;
 
 }
 .parent_banner {
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 150%;
   padding: 40px 0;
   color: #848FAC;
-  left: 20px;
+  margin-left: 0px;
 
 }
 
@@ -190,31 +190,8 @@ h1, h2, h3, h4, h5, h6, p {
  z-index: 999;
 }
 
-.blankimg_parent{
 
-  position: relative;
-}
-.banner_blankimg{
-  height: 882px;
-  border-radius: 24px;
-  background: #D9D9D9;
-  position: absolute;
-  bottom: 0;
-  width: 90%;
- justify-self: center;
- top: -443px;
- z-index: 999;
- overflow: hidden;
-}
 
-.banner_blankimg img{
-
-  max-width: 100%;
-  height: 100%;
-
- 
-
-}
 /* ====== Banner End ====== */
 
 
@@ -263,7 +240,7 @@ h1, h2, h3, h4, h5, h6, p {
 .counter_item .count_number{
   font-weight: 700;
   font-size: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
   
 .counter_item .count_title{
@@ -333,10 +310,11 @@ h1, h2, h3, h4, h5, h6, p {
   right: 12px;
 }
 .feature_wrapper .transaction{
-  width: 368px;
+  
   border-radius: 16px;
-  background: #fff;
+  background: #ffffff;
   padding: 24px;
+  margin-left: 25px;
 }
 .transaction .transaction_heading{
 
@@ -384,12 +362,12 @@ overflow: hidden;
 }
 
  .feature_wrapper .achieves{
-  width: 368px;
+  
 border-radius: 16px;
 border: 1.5px solid #2C1A74;
 padding: 24px;
-
-
+width: 368px;
+margin-left: 25px;
  }
  .achieves .achieves_heading{
   display: flex;
@@ -425,6 +403,10 @@ padding: 24px;
     background-color: rgba(255, 255, 255, 0.3)
     
   }
+  .parent_achieves{
+    margin-left: 25px;
+  }
+ 
  
 
 
@@ -1054,9 +1036,7 @@ padding-top: 100px;
 
 /* ======Footer End===== */
 
-@media only screen and (max-width: 1920px) {
-  .container {
-    width: 100%;
-    padding: 0 auto;
-  }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
 }
